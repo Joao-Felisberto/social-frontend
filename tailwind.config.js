@@ -6,6 +6,17 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {},
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      's-gray': {
+        300: "#42423F",
+        200: "#5F5F59",
+        100: "#E8DFCC"
+      },
+      's-accent': '#919AAC',
+      's-red': '#C75B64'
+    }
   },
   plugins: [],
 };
