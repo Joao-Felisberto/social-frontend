@@ -5,3 +5,14 @@
 .centered {
 	@apply grid place-items-center
 }
+
+/* https://stackoverflow.com/a/66436651 */
+
+.no_scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
