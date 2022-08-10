@@ -6,8 +6,8 @@ import SidebarItem from './SidebarItem'
 
 const Sidebar: Component = () => {
 	return (
-		<div class="flex flex-wrap bg-gray-100 w-full h-screen">
-			<div class="w-1/12 bg-white rounded p-1 lg:p-3 h-screen shadow-lg overflow-y-scroll no-scrollbar">
+		<div class="h-screen">
+			<div class="bg-white rounded p-1 lg:p-3 h-screen shadow-lg overflow-y-scroll no-scrollbar">
 				{/* TODO: Header */}
 				{/* Item list */}
 				<ul class="space-y-2 text-sm">
